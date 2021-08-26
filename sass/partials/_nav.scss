@@ -1,0 +1,45 @@
+nav {
+
+    background-color: getColor(background-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 0rem 2rem;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        list-style: none;
+        color: red;
+        margin-right: 2rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: getColor(accent);
+    }
+
+    form {
+        display: flex;
+    }
+
+    input {
+        font-size: 1rem;
+        border: none;
+        height: 1.75rem;
+    }
+
+    button {
+        color: white;
+        background: getColor(primary);
+        width: 100px;
+        @extend input
+    }
+
+
+
+
+}

@@ -1,0 +1,36 @@
+main {
+
+    display: flex;
+    flex-direction: column;
+
+    .circle-container {
+        display: flex;
+        margin: 1rem auto;
+    }
+
+
+    .circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+        height: 257px;
+        width: 257px;
+        border-radius: 100%;
+        border: 1px solid black;
+
+        &-green {
+            background: getColor(secondary);
+            color: white;
+        }
+        &-pink {
+            background: getColor(primary);
+            color: white;
+        }
+        &-white {
+            border: 2px solid getColor(accent);
+        }
+    }
+
+
+}

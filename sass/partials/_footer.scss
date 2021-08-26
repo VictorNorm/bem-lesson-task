@@ -1,0 +1,20 @@
+footer {
+    background: getColor(background-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    .footer-section p {
+        color: getColor(primary);
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
+        color: getColor(primary);
+    }
+
+
+}

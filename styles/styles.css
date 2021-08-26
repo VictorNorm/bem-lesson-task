@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open sans';
+}
+
+nav {
+  background-color: #e8e8e8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3rem;
+  padding: 0rem 2rem;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  color: red;
+  margin-right: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
+nav form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav input, nav button {
+  font-size: 1rem;
+  border: none;
+  height: 1.75rem;
+}
+
+nav button {
+  color: white;
+  background: #e5689d;
+  width: 100px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .circle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem auto;
+}
+
+main .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem;
+  height: 257px;
+  width: 257px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+
+main .circle-green {
+  background: #a4c799;
+  color: white;
+}
+
+main .circle-pink {
+  background: #e5689d;
+  color: white;
+}
+
+main .circle-white {
+  border: 2px solid #4b4b4b;
+}
+
+footer {
+  background: #e8e8e8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-section p {
+  color: #e5689d;
+  display: inline-block;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e5689d;
+}
+/*# sourceMappingURL=styles.css.map */
